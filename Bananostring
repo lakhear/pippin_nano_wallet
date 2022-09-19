@@ -1,0 +1,3 @@
+mutation($hash:String!, $difficultyMultiplier: Int!) {
+    workGenerate(input:{hash:$hash, difficultyMultiplier:$difficultyMultiplier})
+}
